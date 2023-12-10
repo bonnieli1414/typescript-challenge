@@ -21,7 +21,7 @@ export function addTodo(todos: ITodo[], task: string): ITodo[] {
     // 在此實現函式
     const newTodo: ITodo = {
         id: todos.length + 1,
-        task: task,
+        task,
         completed: false
     }
     console.log(todos)
