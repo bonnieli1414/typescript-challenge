@@ -18,5 +18,5 @@ interface ICar {
 }
 export function vehicleInfo(vehicle: ICar): string {
     // 在此實現函式
-    return `${vehicle.brand} ${vehicle.model} (${vehicle.year})`
+    return `${vehicle.brand} ${vehicle.model} (${vehicle.year})`;
 }
