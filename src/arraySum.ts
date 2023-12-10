@@ -14,4 +14,15 @@
  */
 export function arraySum(numbers: number[]): number {
     // 在此實現函式
+    // 做法1：
+    // let total = 0
+    // numbers.forEach(number => {
+    //     total += number
+    // });
+    // return total;
+    // 做法2：
+    const initValue = 0;
+    const countNum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue,
+        initValue,)
+    return countNum;
 }
